@@ -1,0 +1,35 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "Python API - GET",
+      "version": "1.0.0"
+    },
+    "paths": {
+      "/date": {
+        "get": {
+          "description": "Returns current date time",
+          "produces": [
+            "application/json"
+          ],
+          "responses": {
+            "200": {
+              "description": "Successful operation"
+            }
+          }
+        }
+      },
+      "/cal": {
+        "get": {
+          "description": "Returns calander",
+          "produces": [
+            "application/json"
+          ],
+          "responses": {
+            "200": {
+              "description": "Successful operation"
+            }
+          }
+        }
+      }
+    }
+}
